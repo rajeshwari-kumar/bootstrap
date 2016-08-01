@@ -19,6 +19,9 @@ Notes:	 Hand coded for Udemy.com
 #features img{
   margin: 0 0 20px;
 }
+#inputNumber{
+  margin-bottom: 15px;
+}
 /* --------------------------------------
    Typography
    -------------------------------------- */
@@ -44,6 +47,9 @@ body{
    .navbar-nav{
      margin-top: 10px;
    }
+   #navi{
+     background: #DCEDC8;
+   }
 /* --------------------------------------
    Carousel
    -------------------------------------- */
@@ -58,6 +64,17 @@ body{
 }
 #slide3{
   background: url('../../images/fudmd.jpg') top center no-repeat;
+}
+.carousel-caption h3{
+  font-family: 'El Messiri', sans-serif;
+  font-size: 30px;
+}
+.carousel-caption h4{
+  font-family: 'El Messiri', sans-serif;
+  font-size: 22.5px;
+}
+#slide2 h3{
+  font-size: 25px;
 }
 /* --------------------------------------
    Global Styles
@@ -77,7 +94,146 @@ body{
   background-color: transparent;
   border: none;
 }
+.btn{
+  width: 150px;
+}
+.tabbable img.thumbnail {
+  margin: 0 20px 10px 0;
+}
+.btn btn-primary{
+  margin-top: 15px;
+}
+.footer-area{
+  background: url("../../images/foot.jpg");
+  margin-bottom: 14px;
+}
+.sosa-icon{
+  margin-top: 15px;
+}
+.footer-area h2 {
+  margin-top: 10px;
+  font-family: 'El Messiri', sans-serif;
+  color: white;
+}
+.address {
+  font-family: 'El Messiri', sans-serif;
+  font-size: 18px;
+  line-height: 23px;
+  color: white;
+}
+.phone-no{
+  font-family: 'Courgette', sans-serif;
+}
+.footer-area span{
+  font-family: 'El Messiri', sans-serif;
+  font-size: 16px;
+  line-height: 23px;
+  color: white;
+}
+.footer-area h4{
+  font-family: 'El Messiri', sans-serif;
+  font-size: 18px;
+  color: white;
+}
+.social-links{
+  display: table;
+  margin-right: 20px;
+}
+.social-links li{
+  position: relative;
+  left: 82px;
+  display: inline-block;
+  text-align: center;
+  margin-right: 10px;
+  }
+  .social-links li a{
+    display: table-cell;
+    vertical-align: middle;
+    width: 10px;
+    height: 10px;
+    font-size: 16px;
+    -webkit-border-radius: 20%;
+  }
+  .well{
+  background-color: #FBE9E7;
+}
 
+  body{
+    background: rgba(0, 0, 0, 0) url("../../images/menu.jpg") no-repeat scroll 0 0 / 100% 100%;
+    font-family: 'Neuton', serif;
+  }
+  .nav li a{
+    font-family: 'El Messiri', sans-serif;
+    font-size: 20px;
+    color: #F1948A;
+  }
+  .page-header h1{
+    font-family: 'El Messiri', sans-serif;
+  }
+  .lead{
+    font-family: 'El Messiri', sans-serif;
+    font-size: 25px;
+  }
+  #featuresHeading h2{
+    font-family: 'El Messiri', sans-serif;
+    font-size: 30px;
+  }
+  .panel h3{
+    font-family: 'El Messiri', sans-serif;
+    font-size: 25px;
+  }
+  .panel p{
+    font-size: 18px;
+  }
+  .panel a{
+    font-size: 20px;
+  }
+  .tab-pane{
+    font-size: 18px;
+  }
+  .tab-pane a{
+    font-size: 20px;
+  }
+  #tab2 h4{
+    font-family: 'El Messiri', sans-serif;
+font-size: 22px;
+  }
+  #tab3 h4{
+    font-family: 'El Messiri', sans-serif;
+    font-size: 22px;
+  }
+  #tab3 h5{
+    font-family: 'El Messiri', sans-serif;
+    font-size: 20px;
+  }
+  .list-group h4{
+    font-family: 'El Messiri', sans-serif;
+    font-size: 22px;
+  }
+  .list-group p{
+    font-size: 16px;
+  }
+  .col-sm-6 h3{
+    font-family: 'El Messiri', sans-serif;
+  }
+  #menus{
+    margin-top: 100px;
+  }
+  .list-group h4{
+    text-align: center;
+  }
+  .list-group-item{
+    text-align: center;
+  }
+  .section-title h1{
+  font-family: 'Great vibes',cursive;
+  }
+  .section-title h2{
+  font-family: 'kavoon',cursive;
+  }
+  .btn-danger{
+    width: 200px;
+  }
 /* --------------------------------------
    Media Queries
    -------------------------------------- */
