@@ -48,7 +48,7 @@ body{
      margin-top: 10px;
    }
    #navi{
-     background: #DCEDC8;
+     background: #E8F8F5;
    }
 /* --------------------------------------
    Carousel
@@ -57,13 +57,19 @@ body{
    height: 400px;
  }
 #slide1{
-  background: url('../../images/bgmed.jpg') top center no-repeat;
+  background: url('../../images/fmd.jpg') top center no-repeat;
+  opacity: 0.7;
 }
 #slide2{
   background: url('../../images/bg1med.jpg') top center no-repeat;
 }
 #slide3{
   background: url('../../images/fudmd.jpg') top center no-repeat;
+  opacity: 0.7;
+}
+#slide4{
+  background: url('../../images/desmd.jpg') top center no-repeat;
+  opacity: 0.8;
 }
 .carousel-caption h3{
   font-family: 'El Messiri', sans-serif;
@@ -75,6 +81,9 @@ body{
 }
 #slide2 h3{
   font-size: 25px;
+}
+#cake{
+  color:#009688;
 }
 /* --------------------------------------
    Global Styles
@@ -164,8 +173,8 @@ body{
   }
   .nav li a{
     font-family: 'El Messiri', sans-serif;
-    font-size: 20px;
-    color: #F1948A;
+    font-size: 25px;
+    color:black;
   }
   .page-header h1{
     font-family: 'El Messiri', sans-serif;
@@ -249,13 +258,16 @@ font-size: 22px;
     height: 310px;
   }
   #slide1{
-   background: url('../../images/bgsmall.jpg') top center no-repeat;
+   background: url('../../images/fsm.jpg') top center no-repeat;
   }
   #slide2{
    background: url('../../images/bg1small.jpg') top center no-repeat;
   }
   #slide3{
    background: url('../../images/fudsm.jpg') top center no-repeat;
+  }
+  #slide4{
+   background: url('../../images/dessm.jpg') top center no-repeat;
   }
 }
 
@@ -265,7 +277,7 @@ font-size: 22px;
     height: 500px;
   }
   #slide1{
-   background: url('../../images/bg.jpg') top center no-repeat;
+   background: url('../../images/flg.jpg') top center no-repeat;
   }
   #slide2{
    background: url('../../images/bg1.jpg') top center no-repeat;
@@ -273,5 +285,8 @@ font-size: 22px;
   #slide3{
    background: url('../../images/fudlg.jpg') top center no-repeat;
    visibility: inherit;
+  }
+  #slide4{
+   background: url('../../images/deslg.jpg') top center no-repeat;
   }
 }
